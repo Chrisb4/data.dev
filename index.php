@@ -6,25 +6,18 @@
 
 // Initialization
 require_once('includes/init.php');
-?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>data.dev</title>
-    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
 
-    <style>
-        body {
-            font-family: 'Oswald', sans-serif;
-        }
-    </style>
-</head>
-<body>
+// Show the page header, then the rest of the HTML
+include('includes/header.php');
+
+?>
+
+
 
   <h1>Home</h1>
 
-</body>
-</html>
+  <p><a href="signup.php">Sign Up</a></p>
+
+
+
+<?php include('includes/footer.php'); ?>
