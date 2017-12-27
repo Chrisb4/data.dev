@@ -15,8 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   if (empty($user->errors)) {
 
     // Redirect to signup success page
-    header('Location: http://' . $_SERVER['HTTP_HOST'] . '/signup_success.php');
-    exit;
+    Util::redirect('/signup_success.php');
   }
 }
 
